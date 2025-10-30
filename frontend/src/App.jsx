@@ -259,18 +259,6 @@ export default function App() {
         </button>
       </section>
 
-      <section style={styles.section}>
-        <label style={styles.label}>Lookup Interests by Email</label>
-        <div style={styles.row}>
-          <input
-            style={styles.input}
-            value={lookupEmail}
-            onChange={(event) => setLookupEmail(event.target.value)}
-            placeholder="friend@example.com"
-          />
-          <button onClick={handleFetchInterests}>Fetch</button>
-        </div>
-      </section>
 
       <section style={styles.section}>
         <label style={styles.label}>Log</label>
