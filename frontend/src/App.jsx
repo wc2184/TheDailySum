@@ -232,7 +232,7 @@ export default function App() {
       </section>
 
       <section style={styles.section}>
-        <label style={styles.label}>Save Interests (comma separated)</label>
+        <label style={styles.label}>Save Interests</label>
         <textarea
           style={{ ...styles.input, minHeight: 72 }}
           value={interestsInput}
