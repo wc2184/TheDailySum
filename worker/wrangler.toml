@@ -1,0 +1,10 @@
+name = "daily-summary-worker"
+main = "src/index.js"
+compatibility_date = "2024-06-05"
+
+[triggers]
+crons = ["0 13 * * *"]
+
+[vars]
+OPENAI_MODEL = "gpt-5"
+MAX_USERS_PER_RUN = "25"

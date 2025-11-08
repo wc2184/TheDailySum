@@ -48,3 +48,5 @@ storybook-static/
 
 # Optional: if using eslint / prettier cache
 .eslintcache
+
+.DS_Store
